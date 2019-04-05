@@ -20,4 +20,4 @@ for row in cursor:
 
 df = pd.DataFrame(array)
 save_file = input("Where should we save this file?")
-df.to_excel(save_file, index=False
+df.to_excel(save_file, index=False)
